@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>IVG - Zalo Chat</title>
+    <link rel="shortcut icon" href="assets/image/logo.png">
+    <style>
+        body {
+            overflow: hidden;
+            margin: unset;
+        }
+
+        iframe {
+            border: unset;
+            outline: unset;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe id="frmChat" src=""></iframe>
+
+    <script>
+        chat();
+        function chat() {
+            try {
+                var queryString = window.location.search;
+                queryString = queryString.toLowerCase();
+                var urlParams = new URLSearchParams(queryString);
+
+                var userid = urlParams.get('userid');
+                var zaloid = urlParams.get('zaloid');
+
+                var src = `app/main?userid=${userid}&zaloid=${zaloid}&ver=${Math.random()}`;
+                //if (zaloid != 'null') {
+                //    window.parent.postMessage({ type: 'zalo_popup' }, '*');
+                //}
+
+                var frmChat = document.getElementById('frmChat');
+                frmChat.src = src;
+
+            } catch (e) {
+
+            }
+        }
+    </script>
+</body>
+</html>

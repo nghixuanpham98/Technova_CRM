@@ -1,0 +1,341 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ZNS TEMPLATE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="ivg.vn">
+    <meta name="description" content="IVG Vietnam Joint Stock Company CRM">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/image/logo.png">
+
+    <!-- Plugins CSS -->
+    <link href="../../assets/bootstrap/fontawesome/css/all.min.css" rel="stylesheet" />
+
+    <link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/bootstrap/js/popper.min.js"></script>
+    <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
+    <link href="../../assets/select2/select2.min.css" rel="stylesheet" />
+    <link href="../../assets/css/ivg-style.css" rel="stylesheet" />
+    <!--<link href="../../assets/css/common.css" rel="stylesheet" />-->
+    <link href="zns-template.css?ver=1.0" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="iconLoading" style="display:none">
+        <i class="fa-solid fa-circle text-primary fa-bounce fa-1x"></i>
+        <i class="fa-solid fa-circle text-info fa-bounce fa-1x"></i>
+        <i class="fa-solid fa-circle text-success fa-bounce fa-1x"></i>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalShareInfo" id="btnModalShareInfo" hidden></button>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalSendZNS" id="btnModalSendZNS" hidden></button>
+
+    <div class="modal fade" id="ModalShareInfo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Gửi yêu cầu chia sẻ thông tin</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="text-primary"><b>Nội dung</b></h4>
+                                <div class="form-group">
+                                    <b>Title</b>
+                                    <input class="form-control" id="txtTitle" spellcheck="false" autocomplete="off" value="Chia sẻ thông tin để được hỗ trợ tốt hơn" />
+                                </div>
+                                <div class="form-group">
+                                    <b>Sub title</b>
+                                    <input class="form-control" id="txtSubtitle" spellcheck="false" autocomplete="off" value="Đang yêu cầu thông tin từ bạn" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <h4 class="text-primary"><b>Danh sách người dùng</b> [<b class="text-danger" id="lblTotalUserChecked">0</b>]</h4>
+                                <table class="table table-striped table-hover">
+                                    <tbody id="tbodyUserChecked"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary " data-bs-dismiss="modal"><i class="fas fa-times"></i> Đóng</button>
+                    <button onclick="request_share_info(1)" type="button" class="btn btn-primary"><i class="fas fa-times"></i> Gửi yêu cầu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalSendZNS" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Gửi ZNS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <!--<div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label>Title</label>
+                                    <input value="Chia sẻ thông tin để được hỗ trợ tốt hơn" id="txtTitle" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Sub title</label>
+                                    <input value="Đang yêu cầu thông tin từ bạn" id="txtSubtitle" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <table class="table table-striped table-hover">
+                                    <tbody id="tbodyUserChecked"></tbody>
+                                </table>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button onclick="BindData()" class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-template" type="button" aria-selected="true"><i class="fa-solid fa-envelope"></i> Template</button>
+                <button onclick="BindParams()" class="nav-link" id="nav-params-tab" data-bs-toggle="tab" data-bs-target="#nav-params" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-list-check"></i> Params</button>
+                <button onclick="BindUsers()" class="nav-link" id="nav-user-tab" data-bs-toggle="tab" data-bs-target="#nav-users" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-users"></i> Users</button>
+            </div>
+        </nav>
+
+        <div class="tab-content " id="nav-tabContent">
+
+            <!--Template-->
+            <div class="tab-pane fade show active" id="nav-template" role="tabpanel" aria-labelledby="nav-home-tab">
+
+                <div class="container" hidden>
+                    <div class="row">
+
+
+
+
+                        <div class="col-12">
+                            <div>
+                                <img style="border-radius:50%" src="https://s160-ava-talk.zadn.vn/a/2/4/6/3/160/fd8330fcc4e59743c87d3aa6947cba7c.jpg" width="100" />
+                            </div>
+                            <div>
+                                <img src="https://cover-talk.zadn.vn/f/2/9/3/4/fd8330fcc4e59743c87d3aa6947cba7c.jpg" width="500" />
+                            </div>
+
+                            <div class="row" style="margin-bottom:5px">
+                                <div class="col-4 align-content-center"><b>Name</b></div>
+                                <div class="col"><input class="form-control ivg-input" id="txtOAName" readonly /></div>
+                            </div>
+                            <div class="row" style="margin-bottom:5px">
+                                <div class="col-4 align-content-center"><b>Cate Name</b></div>
+                                <div class="col"><input class="form-control ivg-input" id="txtOACateName" readonly /></div>
+                            </div>
+                            <div class="row" style="margin-bottom:5px">
+                                <div class="col-4 align-content-center"><b>Description</b></div>
+                                <div class="col"><textarea class="form-control ivg-input" id="txtOADescription" readonly rows="5"></textarea></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-12 row">
+
+                            <div class="col">
+                                <small>Remaining Quota Promotion</small>
+                            </div>
+
+                            <div class="col">
+                                <small>Remaining Quota</small>
+                            </div>
+
+                            <div class="col">
+                                <small>Daily Quota Promotion</small>
+                            </div>
+
+                            <div class="col">
+                                <small>Daily Quota</small>
+                            </div>
+
+                            <!--//{
+                    //    "OAID": "980920582523369584",
+                    //    "": "IVG JSC",
+                    //    "Description": "Công ty Cổ Phần IVG Việt nam là nhà cung cấp tiên phong trong lĩnh vực chăm sóc khách hàng và quản trị kinh doanh. Với đội ngũ chuyên gia tài năng giàu kinh nghiệm, được hỗ trợ toàn diện bởi mạng lưới đối tác trên toàn cầu, IVG luôn sẵn sàng tư vấn, cung cấp, triển khai và khai thác hiệu quả các hệ thống được tối ưu hóa cao độ, đáp ứng những yêu cầu cầu đặc thù và phù hợp với định hướng phát triển của từng tổ chức, doanh nghiệp.",
+                    //    "IsVerified": true,
+                    //    "OAType": 2,
+                    //    "NumFollower": 14,
+                    //    "Avatar": "https://s160-ava-talk.zadn.vn/a/2/4/6/3/160/fd8330fcc4e59743c87d3aa6947cba7c.jpg",
+                    //    "Cover": "https://cover-talk.zadn.vn/f/2/9/3/4/fd8330fcc4e59743c87d3aa6947cba7c.jpg",
+                    //    "PackageName": "Nâng cao",
+                    //    "PackageValidThroughDate": "18/03/2025",
+                    //    "PackageAutoRenewDate": "19/03/2025",
+                    //    "LinkedZca": "ZBA-134092",
+
+                    //    "CreatedOn": "2024-10-04T13:41:25.153",
+                    //    "ModifiedOn": "2024-10-22T12:49:39.7"
+                    //}-->
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-4">
+                        <div class="ivg-div-panel h-100">
+                            <h4 class="text-primary"><b>Danh sách template ZNS</b></h4>
+
+                            <table class="table table-hover table-bordered" style="width:100%">
+                                <thead id="thead"></thead>
+                                <tbody id="tbody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="ivg-div-panel">
+
+                            <h4 class="text-primary"><b>Chi tiết template </b></h4>
+                            <div class="row">
+                                <div id="tblDetailTmp" hidden>
+                                    <div class="row" style="margin-bottom:5px">
+                                        <div class="col-4 align-content-center"><b>#label</b></div>
+                                        <div class="col"><input class="form-control ivg-input" value="#value" readonly /></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <input type="hidden" id="hdfTemplateID" />
+                                    <div class="row" style="margin-bottom:5px">
+                                        <div class="col-4 align-content-center"><b>Template Name</b></div>
+                                        <div class="col">
+                                            <div class="input-group align-items-center">
+                                                <input class="form-control ivg-input" readonly id="txtTemplateName" />
+                                                <a href="javascript:void(0)" id="txtPreviewUrl" target="_blank" style="display:none"><i class="fas fa-external-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-bottom:5px">
+                                        <div class="col-4 align-content-center"><b>Price</b></div>
+                                        <div class="col"><input class="form-control ivg-input" readonly id="txtPrice" /></div>
+                                    </div>
+                                    <div class="row" style="margin-bottom:5px">
+                                        <div class="col-4 align-content-center"><b>Status</b></div>
+                                        <div class="col"><input class="form-control ivg-input" readonly id="txtStatus" /></div>
+                                    </div>
+                                    <div class="row" style="margin-bottom:5px">
+                                        <div class="col-4 align-content-center"><b>Timeout</b></div>
+                                        <div class="col"><input class="form-control ivg-input" readonly id="txtTimeout" /></div>
+                                    </div>
+                                    <div class="row" style="margin-bottom:5px">
+                                        <div class="col-4 align-content-center"><b>Template Quality</b></div>
+                                        <div class="col"><input class="form-control ivg-input" readonly id="txtTemplateQuality" /></div>
+                                    </div>
+                                    <div class="row" style="margin-bottom:5px">
+                                        <div class="col-4 align-content-center"><b>Template Tag</b></div>
+                                        <div class="col"><input class="form-control ivg-input" readonly id="txtTemplateTag" /></div>
+                                    </div>
+                                    <div class="row" style="margin-bottom:5px">
+                                        <div class="col-4 align-content-center"><b>Apply Template Quota</b></div>
+                                        <div class="col"><input class="form-control ivg-input" readonly id="txtApplyTemplateQuota" /></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <iframe style="width:100%;height:100%" id="frmPreviewUrl"></iframe>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="ivg-div-panel">
+
+                            <h4 class="text-primary">
+                                <b>Tham số</b>
+                                <span class="ivg-btn">
+                                    <button onclick="SaveParams()"><i class="fas fa-save"></i></button>
+                                </span>
+                            </h4>
+
+                            <table class="table table-hover table-bordered" style="width:100%">
+                                <thead id="theadParams"></thead>
+                                <tbody id="tbodyParams"></tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Params-->
+            <div class="tab-pane fade" id="nav-params" role="tabpanel" aria-labelledby="nav-params-tab">
+                <table class="table table-hover table-bordered table-striped" style="width:100%">
+                    <thead id="theadParamsLink"></thead>
+                    <tbody id="tbodyParamsLink"></tbody>
+                </table>
+                <div class="ivg-btn ivg-button-top">
+                    <button onclick="NewParamsLink()"><i class="fa-solid fa-plus"></i> Thêm</button>
+                    <button onclick="SaveParamsLink()"><i class="fa-solid fa-save"></i> Lưu</button>
+                </div>
+            </div>
+
+
+
+            <!--Users-->
+            <div class="tab-pane fade" id="nav-users" role="tabpanel" aria-labelledby="nav-params-tab">
+                <table class="table table-hover table-bordered table-striped" style="width:100%">
+                    <thead id="theadUsers"></thead>
+                    <tbody id="tbodyUsers"></tbody>
+                </table>
+                <div class="ivg-btn ivg-button-top" hidden>
+                    <button onclick="request_share_info()" data-bs-toggle="tooltip" data-bs-placement="top" title="Gửi yêu cầu chia sẻ thông tin"><i class="fa-solid fa-share-nodes"></i> Chia sẻ</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../../assets/bootstrap/js/jquery-3.4.1.min.js"></script>
+
+    <!-- Bootstrap-->
+    <script src="../../assets/theme/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/theme/js/functions.js"></script>
+    <script src="../../assets/theme/js/glightbox.js"></script>
+    <script src="../../assets/theme/js/purecounter_vanilla.js"></script>
+    <script src="../../assets/theme/js/tiny-slider.js"></script>
+
+    <!--Alert Toastr-->
+    <link href="../../assets/toast/toastr.min.css" rel="stylesheet" />
+    <script src="../../assets/toast/toastr.min.js"></script>
+    <script src="../../assets/select2/select2.min.js"></script>
+    <!--IVG JS-->
+    <!--<script src="../../assets/js/common.js?ver=1.3"></script>-->
+    <script src="../../assets/js/api-url.js?ver=1.0"></script>
+    <script src="zns-template.js?ver=1.0"></script>
+    <script>
+        $('.select2').select2();
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿Installing assembly 'C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.InstallLog
+   assemblypath = C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe
+Installing service IVG Mailchimp Services...
+Service IVG Mailchimp Services has been successfully installed.
+Creating EventLog source IVG Mailchimp Services in log Application...
+Committing assembly 'C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.InstallLog
+   assemblypath = C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe
+Uninstalling assembly 'C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.InstallLog
+   assemblypath = C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe
+Removing EventLog source IVG Mailchimp Services.
+Service IVG Mailchimp Services is being removed from the system...
+Service IVG Mailchimp Services was successfully removed from the system.
+Installing assembly 'C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.InstallLog
+   assemblypath = C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe
+Installing service IVG Mailchimp Services...
+Service IVG Mailchimp Services has been successfully installed.
+Creating EventLog source IVG Mailchimp Services in log Application...
+Committing assembly 'C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.InstallLog
+   assemblypath = C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe

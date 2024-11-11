@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ZALO MAIN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="ivg.vn">
+    <meta name="description" content="IVG Vietnam Joint Stock Company CRM">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/image/logo.png">
+
+    <!-- Plugins CSS -->
+    <link href="../../assets/bootstrap/fontawesome/css/all.min.css" rel="stylesheet" />
+
+    <link href="../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/bootstrap/js/popper.min.js"></script>
+    <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
+    <link href="../../assets/select2/select2.min.css" rel="stylesheet" />
+    <link href="../../assets/css/ivg-style.css" rel="stylesheet" />
+    <!--<link href="../../assets/css/common.css" rel="stylesheet" />-->
+    <link href="main.css?ver=1.6" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="iconLoading" style="display:none">
+        <i class="fa-solid fa-circle text-primary fa-bounce fa-1x"></i>
+        <i class="fa-solid fa-circle text-info fa-bounce fa-1x"></i>
+        <i class="fa-solid fa-circle text-success fa-bounce fa-1x"></i>
+    </div>
+
+    <span style="position:fixed;right:1px;z-index:1;opacity:.5;font-size:7pt">v.2024.11.11.3</span>
+
+    <div style="position: fixed; opacity: .5; display:none">
+        <input type="number" id="input" />
+        <input id="stop" type="button" value="stop" />
+        <input id="start" type="button" value="start" />
+
+        <input id="hdfUserId" title="hdfUserId" />
+        <input id="hdfSessionName" />
+        <input id="hdfLastMsgId" title="hdfLastMsgId" />
+    </div>
+
+
+    <div class="container-fluid">
+
+        <div style="background:unset;width:100%">
+            <div class="row">
+                <div class="col-3">
+                    <button onclick="conversation(this)" class="ivg-btn-main active"><i class="fa-solid fa-comment-dots"></i><span>Tin nhắn</span></button>
+                </div>
+                <div class="col-3">
+                    <button onclick="session_list(this)" class="ivg-btn-main"><i class="fa-solid fa-comments"></i><span>Sessions</span></button>
+                </div>
+                <div class="col-3" hidden>
+                    <button onclick="contact_list(this)" class="ivg-btn-main"><i class="fa-solid fa-address-book"></i><span>Danh bạ</span></button>
+                </div>
+                <div class="col ivg-text-right align-content-center">
+                    <b id="lblStatusText" class="text-bold">Offline</b>
+                    <label class="switch">
+                        <input onchange="UserStatus()" type="checkbox" id="ckUserStatus">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="h-100">
+            <div class="ivg-div-panel">
+
+                <div id="pageContact" class="scroll">
+                    <div class="container-fluid">
+
+                        <div id="tmpContact" hidden>
+                            <div class="row align-items-center row-list">
+                                <div class="col-2">
+                                    <img width="50" src="@avatar" style="border-radius:50%" />
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">@name</div>
+                                    <!--<div class="form-group">@message</div>-->
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+
+                        <div id="pnlContact"></div>
+                    </div>
+                </div>
+
+                <div id="pageChatList">
+                    <div class="container-fluid">
+                        <div id="tmpChatList" hidden>
+                            <div class="row align-items-center row-list" onclick="chat_detail('@user_id')">
+                                <div class="col-2">
+                                    <img width="50" src="@avatar" style="border-radius:50%" />
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">@name</div>
+                                    <div class="form-group">@message</div>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                        <div id="pnlChatList"></div>
+                    </div>
+                </div>
+
+
+                <div id="pageSession" style="display:none">
+                    <table class="table table-hover">
+                        <thead id="tblSessionsHead"></thead>
+                        <tbody id="tblSessions"></tbody>
+                    </table>
+                </div>
+
+                <div id="pageChatDetail" style="display:none">
+
+                    <div class="container-fluid">
+
+                        <div class="chat-detail-header">
+
+                            <div class="row">
+                                <!--<div class="col-1 align-content-center">
+                                    <i onclick="conversation()" class="fas fa-angle-left"></i>
+                                </div>-->
+                                <div class="col align-content-center">
+                                    <img id="imgChatDetail" src="" width="50" style="border-radius:50%" />
+                                    <span id="lblChatName"></span>
+                                </div>
+                                <div class="col-2 align-content-center ivg-text-right">
+                                    <i onclick="session_close()" class="fas fa-check-circle" title="Đóng phiên chat"></i>
+                                    <i onclick="scroll_last()" class="fas fa-angle-down"></i>
+                                    <i style="display:none" onclick="open_crm()" class="fas fa-external-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="chat-detail-body">
+                            <div id="tmpChatDetailLeft" hidden>
+                                <div class="msg left-msg">
+                                    <div class="msg-img" style="background-image: url(@avatar)"></div>
+                                    <div class="msg-bubble">
+                                        <div class="msg-text">@message</div>
+                                        <div class="msg-info">
+                                            <!--<div class="msg-info-name">@name</div>-->
+                                            <div class="msg-info-time">@time</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="tmpChatDetailRight" hidden>
+                                <div class="msg right-msg">
+                                    <!--<div class="msg-img" style="background-image: url(@avatar)"></div>-->
+                                    <div class="msg-bubble">
+                                        <div class="msg-text">@message</div>
+                                        <div class="msg-info">
+                                            <!--<div class="msg-info-name">@name</div>-->
+                                            <div class="msg-info-time">@time</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pnlChatDetail" class="msger-chat"></div>
+                        </div>
+
+                        <div class="chat-detail-footer">
+                            <input id="txtMessage" type="text" placeholder="Nhập tin nhắn ..." autocomplete="off" spellcheck="false" autofocus />
+                            <button hidden class="btn-attach"><i class="fas fa-paperclip"></i></button>
+                            <button class="btn-sticker" type="button" data-bs-toggle="modal" data-bs-target="#modalSticker"><i class="fas fa-smile"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pageChatDetailSession" style="display:none">
+
+                    <div class="container-fluid">
+
+                        <div class="chat-detail-header">
+
+                            <div class="row">
+                                <div class="col align-content-center">
+                                    <img id="imgChatDetailSession" src="" width="50" style="border-radius:50%" />
+                                    <span id="lblChatNameSession"></span>
+                                </div>
+                                <div class="col-2 align-content-center ivg-text-right">
+                                    <i onclick="scroll_last()" id="btnLastPage" class="fas fa-angle-down"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="chat-detail-body">
+                            <div id="tmpChatDetailLeftSession" hidden>
+                                <div class="msg left-msg">
+                                    <div class="msg-img" style="background-image: url(@avatar)"></div>
+                                    <div class="msg-bubble">
+                                        <div class="msg-text">@message</div>
+                                        <div class="msg-info">
+                                            <div class="msg-info-time">@time</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="tmpChatDetailRightSession" hidden>
+                                <div class="msg right-msg">
+                                    <div class="msg-bubble">
+                                        <div class="msg-text">@message</div>
+                                        <div class="msg-info">
+                                            <div class="msg-info-time">@time</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pnlChatDetailSession" class="msger-chat"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Button trigger modal -->
+    <div>
+        <!-- STICKER -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSticker" id="btnSticker" hidden></button>
+        <div class="modal fade" id="modalSticker" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div id="tmpSticker" hidden><img onclick="chat_sticker('@id')" src="@src" width="100" /></div>
+                        <div id="pnlSticker"></div>
+                        <button class="btn btn-close-sticker" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CLOSE SESSION -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCloseSession" id="btnCloseSession" hidden></button>
+        <div class="modal fade" id="modalCloseSession" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h3 class="text-danger">Bạn có chắc chắn đóng phiên chat này?</h3>
+                        <button class="btn btn-close-session" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+
+
+                        <br />
+                        <button onclick="session_close(1)" class="btn btn-info w-100"><i class="fas fa-check-circle"></i> Xác nhận đóng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ALERT NOTIFICATION -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNotification" id="btnNotification" hidden></button>
+        <div class="modal fade" id="modalNotification" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h2 class="text-primary" id="lblNoti"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- USER INFO -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalUserInfo" id="btnUserInfo" hidden></button>
+        <div class="modal fade" id="modalUserInfo" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div id="tmpSticker" hidden><img onclick="chat_sticker('@id')" src="@src" width="100" /></div>
+                        <div id="pnlSticker"></div>
+                        <button class="btn btn-close-sticker" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/bootstrap/js/jquery-3.4.1.min.js"></script>
+
+    <!-- Bootstrap-->
+    <script src="../../assets/theme/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/theme/js/functions.js"></script>
+    <script src="../../assets/theme/js/glightbox.js"></script>
+    <script src="../../assets/theme/js/purecounter_vanilla.js"></script>
+    <script src="../../assets/theme/js/tiny-slider.js"></script>
+
+    <!--Alert Toastr-->
+    <link href="../../assets/toast/toastr.min.css" rel="stylesheet" />
+    <script src="../../assets/toast/toastr.min.js"></script>
+    <script src="../../assets/select2/select2.min.js"></script>
+    <!--IVG JS-->
+    <!--<script src="../../assets/js/common.js?ver=1.7"></script>-->
+    <script src="../../assets/js/api-url.js?ver=1.7"></script>
+    <script src="main.js?ver=1.7"></script>
+    <script>
+        $('.select2').select2();
+    </script>
+</body>
+</html>

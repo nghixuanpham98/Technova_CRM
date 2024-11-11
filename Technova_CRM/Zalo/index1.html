@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>IVG - Zalo Chat</title>
+    <link rel="shortcut icon" href="assets/image/logo.png">
+    <style>
+        body {
+            overflow: hidden;
+            margin: unset;
+        }
+
+        iframe {
+            border: unset;
+            outline: unset;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe id="frmChat" src=""></iframe>
+
+    <script>
+        chat();
+        function chat() {
+            var frmChat = document.getElementById('frmChat');
+            frmChat.src = `app/setting/setting.html?ver=${Math.random()}`;
+        }
+    </script>
+</body>
+
+
+
+</html>

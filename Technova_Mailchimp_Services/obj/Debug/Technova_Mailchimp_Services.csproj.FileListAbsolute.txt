@@ -1,0 +1,14 @@
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe.config
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.exe
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Technova_Mailchimp_Services.pdb
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\obj\Debug\Technova_Mailchimp_Services.csproj.AssemblyReference.cache
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\obj\Debug\Technova_Mailchimp_Services.csproj.CoreCompileInputs.cache
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\obj\Debug\Technova_Mailchimp_Services.exe
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\obj\Debug\Technova_Mailchimp_Services.pdb
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\obj\Debug\Technova_Mailchimp_Services.ProjectInstaller.resources
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\obj\Debug\Technova_Mailchimp_Services.csproj.GenerateResource.cache
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\RestSharp.dll
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\bin\Debug\RestSharp.xml
+C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_Mailchimp_Services\obj\Debug\Technova.613D1BDA.Up2Date

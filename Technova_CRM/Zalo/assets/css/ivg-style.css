@@ -1,0 +1,519 @@
+﻿:root {
+    --main-color-yellow-9: #fece09E6;
+    --main-color-yellow-8: #fece09CC;
+    --main-color-yellow-7: #fece09B3;
+    --main-color-yellow-6: #fece0999;
+    --main-color-yellow-5: #fece0980;
+    --main-color-yellow-4: #fece0966;
+    --main-color-yellow-3: #fece094D;
+    --main-color-yellow-2: #fece0933;
+    --main-color-yellow-1: #fece091A;
+    /*
+    
+    _9:'E6',
+    _8:'CC',
+    _7:'B3',
+    _6:'99',
+    _5:'80',
+    _4:'66',
+    _3:'4D',
+    _2:'33',
+    _1: '1A',
+    */
+
+    --main-color-blue-91: rgb(1, 30, 100,0.91);
+    --main-color-blue-92: rgb(1, 30, 100,0.92);
+    --main-color-blue-93: rgb(1, 30, 100,0.93);
+    --main-color-blue-94: rgb(1, 30, 100,0.94);
+    --main-color-blue-95: rgb(1, 30, 100,0.95);
+    --main-color-blue-96: rgb(1, 30, 100,0.96);
+    --main-color-blue-97: rgb(1, 30, 100,0.97);
+    --main-color-blue-98: rgb(1, 30, 100,0.98);
+    --main-color-dark: #011E64;
+    --main-color-medium: #02238B;
+    --main-color-yellow: rgb(254, 206, 9);
+    --main-color-blue-10: rgb(1, 30, 100,1);
+    --main-color-blue-9: rgb(1, 30, 100,0.9);
+    --main-color-blue-8: rgb(1, 30, 100,0.8);
+    --main-color-blue-7: rgb(1, 30, 100,0.7);
+    --main-color-blue-6: rgb(1, 30, 100,0.6);
+    --main-color-blue-5: rgb(1, 30, 100,0.5);
+    --main-color-blue-4: rgb(1, 30, 100,0.4);
+    --main-color-blue-3: rgb(1, 30, 100,0.3);
+    --main-color-blue-2: rgb(1, 30, 100,0.2);
+    --main-color-blue-1: rgb(1, 30, 100,0.1);
+    --main-color-blue-09: rgb(1, 30, 100,0.09);
+    --main-color-blue-08: rgb(1, 30, 100,0.08);
+    --main-color-blue-07: rgb(1, 30, 100,0.07);
+    --main-color-blue-06: rgb(1, 30, 100,0.06);
+    --main-color-blue-05: rgb(1, 30, 100,0.05);
+    --main-color-blue-04: rgb(1, 30, 100,0.04);
+    --main-color-blue-03: rgb(1, 30, 100,0.03);
+    --main-color-blue-02: rgb(1, 30, 100,0.02);
+    --main-color-blue-01: rgb(1, 30, 100,0.01);
+    --color-white-1: rgb(255, 255, 255,0.1);
+    --color-white-2: rgb(255, 255, 255,0.2);
+    --color-white-3: rgb(255, 255, 255,0.3);
+    --color-white-4: rgb(255, 255, 255,0.4);
+    --color-white-5: rgb(255, 255, 255,0.5);
+    --color-white-6: rgb(255, 255, 255,0.6);
+    --color-white-7: rgb(255, 255, 255,0.7);
+    --color-white-8: rgb(255, 255, 255,0.8);
+    --color-white-9: rgb(255, 255, 255,0.9);
+    --color-white-10: rgb(255, 255, 255,1);
+    --main-color-black-01: rgb(0, 0, 0, 0.01);
+    --main-color-black-02: rgb(0, 0, 0, 0.02);
+    --main-color-black-03: rgb(0, 0, 0, 0.03);
+    --main-color-black-04: rgb(0, 0, 0, 0.04);
+    --main-color-black-05: rgb(0, 0, 0, 0.05);
+    --main-color-black-06: rgb(0, 0, 0, 0.06);
+    --main-color-black-07: rgb(0, 0, 0, 0.07);
+    --main-color-black-08: rgb(0, 0, 0, 0.08);
+    --main-color-black-09: rgb(0, 0, 0, 0.09);
+    --main-color-black-1: rgb(0, 0, 0, 0.1);
+    --main-color-black-2: rgb(0, 0, 0, 0.2);
+    --main-color-black-3: rgb(0, 0, 0, 0.3);
+    --main-color-black-4: rgb(0, 0, 0, 0.4);
+    --main-color-black-5: rgb(0, 0, 0, 0.5);
+    --main-color-black-6: rgb(0, 0, 0, 0.6);
+    --main-color-black-7: rgb(0, 0, 0, 0.7);
+    --main-color-black-8: rgb(0, 0, 0, 0.8);
+    --main-color-black-9: rgb(0, 0, 0, 0.9);
+    --main-color-black-10: rgb(0, 0, 0, 1);
+    --text-grey: #f6f6f6;
+    --main-color-grey: #fefefe;
+}
+
+.body {
+    overflow: hidden;
+    background: #f3f3f3;
+    font-family: 'Segoe UI' !important;
+}
+
+.body-page {
+    background: #fefefe;
+    overflow: hidden;
+}
+
+main {
+    /*background: #f6f6f6;*/
+}
+
+.navbar-light.navbar-sticky {
+    background: rgb(1,30,100);
+    background: linear-gradient(90deg, rgba(1,30,100,1) 0%, rgba(2,35,139,1) 100%);
+}
+
+.ivg-text-yellow {
+    color: var(--main-color-yellow) !important;
+}
+
+.ivg-text-blue {
+    color: var(--main-color-medium) !important;
+}
+
+
+.dataTable {
+    overflow-y: scroll;
+    height: 100%;
+    height: calc(100vh - 120px);
+    font-family: 'Segoe UI' !important;
+    color: #000;
+}
+
+
+.DataDetail {
+    overflow-y: scroll;
+    height: 100%;
+    height: calc(100vh - 0px);
+    font-family: 'Segoe UI' !important;
+}
+
+
+.ivg-table {
+    width: 100%;
+    /*height: 100%;*/
+    border: unset;
+    font-family: 'Segoe UI' !important;
+    background: var(--main-color-grey) !important;
+}
+
+    .ivg-table thead th:hover {
+        cursor: pointer;
+        /*opacity: .8;*/
+    }
+
+    .ivg-table thead th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        /*padding: 0.5%;*/
+        padding: 0.45rem 0.3rem;
+        background: var(--main-color-dark);
+        border: 1px solid var(--main-color-yellow);
+        border-top: unset;
+        /*letter-spacing: 1px;*/
+        color: var(--color-white-9);
+        /*box-shadow: 0px -5px 0px 0px var(--main-color-yellow) inset;*/
+    }
+
+    .ivg-table tbody tr td {
+        border: 1px solid #c9c9c9;
+        padding: 0.5%;
+    }
+
+        .ivg-table tbody tr td img:hover {
+            opacity: .5
+        }
+
+
+    .ivg-table tbody tr:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+
+.ivg-page-content {
+    overflow: hidden;
+    width: calc(100vw - 0px);
+    height: calc(100vh - 60px);
+}
+
+
+
+/* TRUY CẬP DANH MỤC 
+_________________________________________________________________________________________________________*/
+
+li a:focus, li a:active {
+    outline: none !important;
+    box-shadow: none !important
+}
+
+.breadcrumb > li + li:before {
+    content: ">" !important;
+    color: #ccc !important;
+    font-size: larger
+}
+
+li a {
+    text-decoration: none !important;
+    color: #aaa
+}
+
+.breadcrumb {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    border-radius: 8px !important;
+}
+
+@media (max-width: 767px) {
+    .breadcrumb {
+        /*font-size: 11px*/
+    }
+
+    .breadcrumb-item + .breadcrumb-item {
+        padding-left: 0
+    }
+
+        .breadcrumb-item + .breadcrumb-item::before {
+            padding: .15em !important
+        }
+}
+
+.active-1 {
+    color: var(--main-color-blue-8) !important;
+    font-weight: bolder
+}
+/* -- END -- TRUY CẬP DANH MỤC */
+
+
+
+.ivg-align-right {
+    text-align: right !important;
+    display: ruby;
+}
+
+.ivg-button-disabled {
+    border: unset !important;
+    color: black !important;
+}
+
+.ivg-button.del {
+    color: darkred !important;
+}
+
+    .ivg-button.del:hover {
+        color: white !important;
+        background: darkred !important;
+    }
+
+.ivg-button {
+    color: var(--main-color-dark);
+    background: var(--main-color-grey) !important;
+    font-weight: bold
+}
+
+    .ivg-button:hover {
+        background: var(--main-color-dark) !important;
+        color: var(--main-color-yellow);
+    }
+
+.ivg-page-size {
+    outline: unset;
+    border: unset;
+    font-weight: bold;
+    color: var(--main-color-dark);
+    /*background: var(--main-color-blue-1);*/
+}
+
+#lblTotalRecords {
+    color: var(--main-color-dark);
+    /*background: var(--main-color-blue-1);*/
+}
+
+.ivg-paging {
+    margin: 5px 0px 0px 0px;
+}
+
+
+a.nav-link:hover, .nav-item > a.nav-link:hover, .nav-link.dropdown-toggle:hover {
+    color: var(--main-color-yellow) !important;
+}
+
+
+
+/*_____________________________________________________________________________________________________________________________________________*/
+
+.ivg-form-input {
+    font-family: 'Segoe UI' !important;
+    box-shadow: 0px 3px 5px 0px rgb(0, 0, 0, 0.3);
+    margin-top: 10pt;
+    /*padding: 5pt;*/
+    border-radius: 5px;
+    background: var(--main-color-grey);
+}
+
+.ivg-form-input-header {
+    text-align: center;
+    background: var(--main-color-blue-05);
+    padding: 10px 0px;
+}
+
+
+.ivg-form-input-body {
+    padding: 10px 10px;
+}
+
+.ivg-form-input h5 {
+    color: var(--main-color-blue-10);
+    text-transform: uppercase;
+}
+
+.ivg-form-input-label {
+    font-weight: bold;
+    padding: 10px 0px;
+    color: var(--main-color-blue-8);
+    border-bottom: 2px solid var(--main-color-blue-3);
+    margin-bottom: 5pt;
+    text-transform: uppercase;
+}
+
+.ivg-input:focus {
+    background: var(--main-color-blue-03);
+    /*border: 1px solid var(--main-color-yellow);*/
+}
+
+.ivg-label {
+    font-weight: bold;
+    color: var(--main-color-blue-6);
+}
+
+.ivg-input {
+    /*    border: unset;
+    border-radius: unset;
+    border-bottom: 2px solid var(--main-color-blue-5);*/
+}
+
+.ivg-required {
+    color: red !important;
+}
+
+.ivg-form-input-body .row {
+    margin-top: 5pt;
+}
+
+.ivg-button {
+    border: 1px solid var(--bs-gray-300);
+    background: unset;
+}
+
+    .ivg-button:hover {
+        background: var(--main-color-blue-5);
+        color: var(--main-color-yellow) !important;
+    }
+
+
+
+.ivg-radio:after {
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.ivg-radio:checked:after {
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: var(--main-color-blue-10);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+/* The container */
+.ivg-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    /* Hide the browser's default checkbox */
+    .ivg-checkbox input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+/* Create a custom checkbox */
+.ivg-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.ivg-checkbox:hover input ~ .ivg-checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.ivg-checkbox input:checked ~ .ivg-checkmark {
+    background-color: var(--main-color-blue-10);
+}
+
+/* Create the ivg-checkmark/indicator (hidden when not checked) */
+.ivg-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the ivg-checkmark when checked */
+.ivg-checkbox input:checked ~ .ivg-checkmark:after {
+    display: block;
+}
+
+/* Style the ivg-checkmark/indicator */
+.ivg-checkbox .ivg-checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+.body-page {
+    /*background-image: url('../image/wallpaper/white_layers_abstract-wallpaper-1920x1080.jpg');*/
+    /*background-color: white;*/
+}
+
+
+.ivg-text-right {
+    text-align: right !important;
+}
+
+.ivg-border-left {
+    border-left: 1px solid #eee;
+}
+
+.ivg-button-custom {
+    padding: .4em;
+    border-radius: 5px;
+}
+
+    .ivg-button-custom:hover {
+        background: var(--main-color-dark) !important;
+        color: var(--main-color-yellow);
+    }
+
+.is-invalid {
+    background: #ffeeee
+}
+
+
+
+.ivg-file-upload {
+    outline: unset;
+    display: grid;
+    align-content: space-between;
+    justify-items: center;
+    width: 100%;
+    padding: 1.5em;
+    border-radius: 10px;
+    border: 2px dashed #bbb;
+}
+    .ivg-file-upload.invalid {
+        border: 2px dashed #be0000;
+        background: rgba(190, 0, 0, 0.1);
+    }
+
+
+.ivg-input-link {
+    font-weight: bold;
+    color: var(--color-table-detail);
+}
+
+    .ivg-input-link:hover {
+        cursor: pointer;
+        color: orangered;
+        text-decoration-line: underline;
+    }
+
+.form-control:read-only {
+    background-color: var(--bs-gray-200);
+    border-color: var(--bs-border-color);
+    opacity: 1;
+}

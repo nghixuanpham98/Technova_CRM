@@ -1,0 +1,22 @@
+11/11/2024 10:19:26 AM - Service Mailchimp is started
+11/11/2024 10:19:57 AM - Service is stopped
+11/11/2024 11:24:49 AM - Service Mailchimp is started
+11/11/2024 11:25:13 AM - Send campaign: 1a288f4f93 successfully
+11/11/2024 11:25:13 AM - bb7d3d59-60e3-4f15-ac6f-8ad052d3e7cf
+11/11/2024 11:27:50 AM - Service is stopped
+11/11/2024 11:27:51 AM - Service Mailchimp is started
+11/11/2024 11:29:02 AM - Service is stopped
+11/11/2024 11:29:46 AM - Service Mailchimp is started
+11/11/2024 11:35:56 AM - Service is stopped
+11/11/2024 11:36:06 AM - Service Mailchimp is started
+11/11/2024 11:37:00 AM - Service is stopped
+11/11/2024 11:38:43 AM - Service Mailchimp is started
+11/11/2024 11:41:14 AM - Service is stopped
+11/11/2024 11:41:31 AM - Service Mailchimp is started
+11/11/2024 11:42:37 AM - Service is stopped
+11/11/2024 11:45:45 AM - Service Mailchimp is started
+11/11/2024 11:47:12 AM - Service is stopped
+11/11/2024 12:13:41 PM - Service Mailchimp is started
+11/11/2024 12:16:26 PM - Send campaign: dc016f0d91 successfully
+11/11/2024 12:16:26 PM - 6fa5e025-4c71-4125-ae6d-4b726003da7b
+11/11/2024 12:22:44 PM - Service is stopped

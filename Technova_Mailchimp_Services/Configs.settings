@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Technova_Mailchimp_Services" GeneratedClassName="Configs">
+  <Profiles />
+  <Settings>
+    <Setting Name="IVG_Connection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=192.168.0.214;Initial Catalog=TechnovaCRM;Persist Security Info=True;User ID=sa;Password=ivgvn123$</Value>
+    </Setting>
+    <Setting Name="TimeTemplateAsync" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="CompanyName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IVG</Value>
+    </Setting>
+    <Setting Name="Address" Type="System.String" Scope="User">
+      <Value Profile="(Default)">141 Hoàng Quốc Việt</Value>
+    </Setting>
+    <Setting Name="City" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hà Nội</Value>
+    </Setting>
+    <Setting Name="State" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hà Nội</Value>
+    </Setting>
+    <Setting Name="Zip" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="FromName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IVG</Value>
+    </Setting>
+    <Setting Name="FromEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">nghipx@ivg.vn</Value>
+    </Setting>
+    <Setting Name="Country" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Vietnam</Value>
+    </Setting>
+    <Setting Name="Phone" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0965862648</Value>
+    </Setting>
+    <Setting Name="PermissionReminder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">You are receiving this email because you opted in via our website.</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en</Value>
+    </Setting>
+    <Setting Name="Address2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">134/1 CMT8, Q3, HCM</Value>
+    </Setting>
+    <Setting Name="Subject" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IVG</Value>
+    </Setting>
+    <Setting Name="TimeScanData" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15000</Value>
+    </Setting>
+    <Setting Name="TimeReportAsync" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="TimeScanEmailActivities" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,1225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\xxxqmfrman\Documents\GitHub\Technova_CRM\Technova_CRM\bin\app.publish\</_PublishTargetUrl>
+    <History>True|2024-10-11T02:03:40.5836623Z;True|2024-10-10T23:45:24.4337858+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>09/16/2024 11:15:40</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>09/16/2024 11:15:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>09/16/2024 11:15:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
+      <publishTime>09/16/2024 11:15:39</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>09/16/2024 11:15:38</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>09/16/2024 11:15:17</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/27/2022 23:39:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 07:09:56</publishTime>
+    </File>
+    <File Include="bin/RestSharp.dll">
+      <publishTime>08/26/2015 23:33:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/27/2022 23:41:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/27/2022 23:41:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/27/2022 23:41:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>05/27/2022 23:41:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/27/2022 23:42:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/27/2022 23:42:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/27/2022 23:42:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/27/2022 23:42:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/27/2022 23:42:50</publishTime>
+    </File>
+    <File Include="bin/Technova_CRM.dll">
+      <publishTime>10/16/2024 14:16:59</publishTime>
+    </File>
+    <File Include="bin/Technova_CRM.pdb">
+      <publishTime>10/16/2024 14:16:59</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>09/16/2024 11:15:28</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css.map">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css.map">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css.map">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css.map">
+      <publishTime>09/16/2024 11:15:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css.map">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css.map">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css.map">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css.map">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/16/2024 11:15:17</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/16/2024 11:15:17</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/0396de39e27c0b22526d.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/0b7edad1e6940fca5685.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/0ef9e056dc13354d6c02.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/1bc5f36acf2f26717f3e.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/1cc2ce6df2281b764239.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/2edefd71c134286a7125.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/5438b99785d26c8c35c3.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/6324b38b8fce66903fdf.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/6988b0278c62653c3c73.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/8d4157ee6bab82f5dbba.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/a47948d674939dcdc482.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/ad477be847adaef3f7bc.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/b04d64e258a7b1f9e8b6.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/c05518fa24bfcde194ae.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/c96a1ec52280cbde9291.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/d0ea3f450300ea5eb311.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/e3d636790a3ce362ba2d.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/efd3347c0839e167b828.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/fc1e22b11ef4f7aaaee5.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="File/Zalo/sticker/ffec20431c06f558ac17.png">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/16/2024 11:15:17</publishTime>
+    </File>
+    <File Include="ngrok.exe">
+      <publishTime>09/23/2024 08:45:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>09/16/2024 11:15:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>09/16/2024 11:15:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>09/16/2024 11:15:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>09/16/2024 11:15:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js">
+      <publishTime>09/16/2024 11:15:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js.map">
+      <publishTime>09/16/2024 11:15:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js">
+      <publishTime>09/16/2024 11:15:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js.map">
+      <publishTime>09/16/2024 11:15:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/16/2024 11:15:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>09/16/2024 11:15:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/16/2024 11:15:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>09/16/2024 11:15:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>09/16/2024 11:15:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>09/16/2024 11:15:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>09/16/2024 11:15:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>09/16/2024 11:15:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>09/16/2024 11:15:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>09/16/2024 11:15:29</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>09/16/2024 11:15:41</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/16/2024 11:15:17</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/16/2024 11:15:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/16/2024 11:15:17</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/16/2024 11:15:17</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/16/2024 11:15:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/16/2024 14:17:34</publishTime>
+    </File>
+    <File Include="Zalo/app/message - Copy/message.css">
+      <publishTime>10/10/2024 17:09:45</publishTime>
+    </File>
+    <File Include="Zalo/app/message - Copy/message.html">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/app/message - Copy/message.js">
+      <publishTime>09/23/2024 08:45:24</publishTime>
+    </File>
+    <File Include="Zalo/app/message/message.css">
+      <publishTime>10/10/2024 17:09:45</publishTime>
+    </File>
+    <File Include="Zalo/app/message/message.html">
+      <publishTime>10/15/2024 16:53:34</publishTime>
+    </File>
+    <File Include="Zalo/app/message/message.js">
+      <publishTime>10/15/2024 16:53:34</publishTime>
+    </File>
+    <File Include="Zalo/app/setting/setting.html">
+      <publishTime>10/15/2024 16:53:34</publishTime>
+    </File>
+    <File Include="Zalo/app/setting/setting.js">
+      <publishTime>10/15/2024 16:53:34</publishTime>
+    </File>
+    <File Include="Zalo/app/webhook-list/webhook-list.html">
+      <publishTime>09/10/2024 16:32:42</publishTime>
+    </File>
+    <File Include="Zalo/app/webhook-list/webhook-list.js">
+      <publishTime>09/10/2024 16:32:42</publishTime>
+    </File>
+    <File Include="Zalo/app/zns-template/zns-template.css">
+      <publishTime>10/16/2024 08:42:26</publishTime>
+    </File>
+    <File Include="Zalo/app/zns-template/zns-template.html">
+      <publishTime>10/16/2024 08:42:26</publishTime>
+    </File>
+    <File Include="Zalo/app/zns-template/zns-template.js">
+      <publishTime>10/16/2024 08:42:26</publishTime>
+    </File>
+    <File Include="Zalo/assets/apex-chart/apexcharts.css">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="Zalo/assets/apex-chart/apexcharts.min.js">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/bootstrap-icons.css">
+      <publishTime>09/24/2024 16:28:04</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.rtl.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.rtl.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.rtl.min.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.rtl.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.min.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.min.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.rtl.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.min.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.rtl.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.rtl.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.rtl.min.css">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/css/bootstrap.rtl.min.css.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/dtpicker/jquery.datetimepicker.full.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/dtpicker/jquery.datetimepicker.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/all.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/all.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/brands.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/brands.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/fontawesome.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/fontawesome.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/regular.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/regular.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/solid.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/solid.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/svg-with-js.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/svg-with-js.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/v4-font-face.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/v4-font-face.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/v4-shims.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/v4-shims.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/v5-font-face.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/css/v5-font-face.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/all.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/all.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/brands.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/brands.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/conflict-detection.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/conflict-detection.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/fontawesome.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/fontawesome.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/regular.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/regular.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/solid.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/solid.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/v4-shims.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/js/v4-shims.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/webfonts/fa-brands-400.ttf">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/webfonts/fa-brands-400.woff2">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/webfonts/fa-regular-400.ttf">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/webfonts/fa-regular-400.woff2">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/webfonts/fa-solid-900.ttf">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/webfonts/fa-solid-900.woff2">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/webfonts/fa-v4compatibility.ttf">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/fontawesome/webfonts/fa-v4compatibility.woff2">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.bundle.js">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.bundle.js.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.bundle.min.js.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.esm.js">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.esm.js.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.esm.min.js">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.esm.min.js.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.js">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.js.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.min.js">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/bootstrap.min.js.map">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/jquery-3.2.1.slim.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/jquery-3.4.1.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/jquery-ui-1.13.1.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/jquery-ui.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/js/popper.min.js">
+      <publishTime>10/01/2024 16:29:15</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/select2/select2.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/bootstrap/select2/select2.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/browser/bowser.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/chart-js/chart.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/css/common.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/css/ivg-style.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/daypilot/daypilot-all.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/daypilot/v2/app.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/daypilot/v2/img-front/calendar-270x150.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/daypilot/v2/img-front/month-270x150.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/daypilot/v2/img-front/scheduler-270x150.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/daypilot/v2/main.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/daypilot/v2/reporter.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/dtpicker/jquery.datetimepicker.full.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/dtpicker/jquery.datetimepicker.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/dtpicker/timepicker-1.3.5.min.css">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/dtpicker/timepicker-1.3.5.min.js">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/avatar/customer-service-icon.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/avatar/icons8-user-32 %281%29.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/avatar/icons8-user-32.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/avatar/icons8-user-60.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/avatar/icons8-user-64 %281%29.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/avatar/icons8-user-64 %282%29.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/avatar/icons8-user-64.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/avatar/logo-icon.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/avatar/logo.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/icon/icons8-cogs %281%29.gif">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/icon/icons8-cogs.gif">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/loader/loading.gif">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/logo.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/logo/Favicon_website_48x48.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/logo/Logo_dương bản_dọc.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/logo/Logo_dương bản_ngang.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/logo/Logo_dương bản_symbol.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/logo/Logo_web_160x160.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/logo/Logo_web_400x100.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/logo/Logo_âm bản_dọc.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/logo/Logo_âm bản_ngang.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/logo/Logo_âm bản_symbol.png">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/amplifier-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/archives-document-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/books-book-svgrepo-com %281%29.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/books-book-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/books-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/businessman-showing-a-project-sketch-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/call-247.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/call-center-operator-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/call-center-symbol-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/call-center-telephone-svgrepo-com - Copy.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/call-center-telephone-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/call-info.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/case-round-minimalistic-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/case-round-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/check-box-check-mark-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/check-food-and-restaurant-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/check-mark-notepad-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/checking-list-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/cogs-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/crm-crm-svgrepo-com %281%29.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/crm-crm-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/data-economy-finance-2-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/deep-learning-project-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/file-document-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/files-folder-svgrepo-com %281%29.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/files-folder-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/flag-for-flag-vietnam-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:05</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/flag-us-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/folder-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/group-project-people-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/icons8-services.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/invoice-bill-svgrepo-com %281%29.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/invoice-bill-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/invoice-receipt-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/invoice-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/list-document-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/notepad-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/office-material-document-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/online-collaboration-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/people-community-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/people-group-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/people-multiple-magnify-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/people-structure02-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/people-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/plan-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/printer-print-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/reading-document-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/receipt-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/target-audience-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/target-svgrepo-com %281%29.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/target-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/team-group-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/typewriter-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/svg/user-search-svgrepo-com.svg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/abstract_blue_background-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/blue_and_white-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/blue_sea_4-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/dark_blue_background-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/island_beach_panoramic_view-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/sky_hd-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/toronto_skyscrapers_black_and_white-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/white_abstract_background-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/white_layers_abstract-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/white_snake_scales-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/image/wallpaper/white_wooden_slats-wallpaper-1920x1080.jpg">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/images/ui-icons_444444_256x240.png">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/images/ui-icons_555555_256x240.png">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/images/ui-icons_777620_256x240.png">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/images/ui-icons_777777_256x240.png">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/images/ui-icons_cc0000_256x240.png">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/images/ui-icons_ffffff_256x240.png">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/jquery-ui.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/jquery-ui.min-v1.13.2.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery-ui/jquery-ui.min-v1.13.2.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/jquery/jquery.min.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/js/api-url.js">
+      <publishTime>10/15/2024 16:53:34</publishTime>
+    </File>
+    <File Include="Zalo/assets/js/check-page.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/js/common.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/js/index.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/js/pagination.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/quill/quill.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/quill/quill.snow.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/select2/select2.min.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/select2/select2.min.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/sweat-alert/sweetalert.min.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/css/all.min.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/css/bootstrap-icons.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/css/glightbox.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/css/style.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/css/tiny-slider.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/image/favicon.ico">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/index - Copy.html">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/js/bootstrap.bundle.min.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/js/functions.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/js/glightbox.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/js/purecounter_vanilla.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/js/tiny-slider.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/theme/webfonts/fa-solid-900.woff2">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/toast/toastr.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/toast/toastr.min.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/toast/toastr.min.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/tree-table/tree-table.css">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/assets/tree-table/tree-table.js">
+      <publishTime>09/24/2024 16:28:06</publishTime>
+    </File>
+    <File Include="Zalo/index.html">
+      <publishTime>10/15/2024 16:53:34</publishTime>
+    </File>
+    <File Include="Zalo/index1.html">
+      <publishTime>10/15/2024 16:53:34</publishTime>
+    </File>
+    <File Include="zalo_access_token.txt">
+      <publishTime>10/02/2024 17:32:12</publishTime>
+    </File>
+    <File Include="zalo_refresh_token.txt">
+      <publishTime>10/02/2024 17:32:12</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
